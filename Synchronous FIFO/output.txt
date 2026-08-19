@@ -1,0 +1,34 @@
+======================================
+     SYNCHRONOUS FIFO TESTBENCH
+======================================
+
+FIFO Reset Completed
+Empty = 1, Full = 0
+
+WRITE : Data = 11 | Empty = 0 | Full = 0
+WRITE : Data = 22 | Empty = 0 | Full = 0
+WRITE : Data = 33 | Empty = 0 | Full = 0
+WRITE : Data = 44 | Empty = 0 | Full = 0
+WRITE : Data = 55 | Empty = 0 | Full = 0
+
+READ  : Data = 11 | Empty = 0 | Full = 0
+READ  : Data = 22 | Empty = 0 | Full = 0
+READ  : Data = 33 | Empty = 0 | Full = 0
+
+WRITE : Data = 66 | Empty = 0 | Full = 0
+WRITE : Data = 77 | Empty = 0 | Full = 0
+WRITE : Data = 88 | Empty = 0 | Full = 0
+
+READ  : Data = 44 | Empty = 0 | Full = 0
+READ  : Data = 55 | Empty = 0 | Full = 0
+READ  : Data = 66 | Empty = 0 | Full = 0
+READ  : Data = 77 | Empty = 0 | Full = 0
+READ  : Data = 88 | Empty = 1 | Full = 0
+
+Final FIFO Status:
+Empty = 1
+Full  = 0
+
+======================================
+       SIMULATION COMPLETED
+======================================
